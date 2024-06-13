@@ -1,0 +1,114 @@
+.chat-room-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;   
+    padding-top: .4rem; 
+    .head {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 2rem;
+
+    .title {
+            display: flex;
+            justify-content: center;
+             align-items: center;
+             gap: .5rem;
+
+      p {
+        background-color: rgba(0, 0, 0, .1);
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: .3rem;
+        font-weight: bold;
+        text-align: center;
+        }
+    }
+    .add-icon {
+        background-color: #3e37f3;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 60px;
+        background-color: rgba(0, 0, 0, .1);
+        padding-left: 1rem;
+        margin: 1rem 0;
+    input {
+        background-color: transparent;
+        padding: .4rem 1rem;
+        border-radius: 60px;
+        border: none;
+        outline: none;
+    }
+    }
+
+    
+    .chatrooms {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 50px;
+        padding: 0 .5rem;
+        width: 90%;
+
+
+        .subb-top {
+             display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 1rem; 
+        }
+        .subb-btm {
+            display: block;
+        }
+        .user-name {
+            font-size: 15px;
+            font-weight: bold;
+            text-wrap: nowrap;
+            margin-bottom: .4rem;
+        }
+        .time {
+            font-size: 10px;
+            text-wrap: nowrap;
+            margin-bottom: .4rem;
+        }
+        .message-preview {
+            font-size: 13px;
+            text-wrap: nowrap;
+        }
+        .unseen-messages {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, .1);
+            width: fit-content;
+            height: fit-content;
+            font-size: 10px;
+            border-radius: 50%;
+            padding: .3rem;
+            font-weight: bold;
+            text-align: center;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 10px;
+            outline: none;
+            object-fit: cover;
+            margin-right: .4rem;
+        }
+    }
+    .chatrooms:hover {
+        background-color: #cdccf1;
+    }
+}

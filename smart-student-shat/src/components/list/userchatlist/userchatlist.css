@@ -1,0 +1,114 @@
+.chat-list {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;   
+    padding-top: .4rem; 
+    border-right: 1px solid #0099FF;
+
+    .head {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 14rem;
+        margin-left: 1rem;
+
+    .title {
+            display: flex;
+            justify-content: center;
+             align-items: center;
+             gap: .7rem;
+
+      p {
+        background-color: rgba(0, 0, 0, .1);
+        width: 23px;
+        height: 23px;
+        font-size: 10px;
+        border-radius: 50%;
+        padding: .3rem;
+        font-weight: bold;
+        text-align: center;
+        }
+    }
+    .add-icon {
+        background-color: #0099FF;
+        font-size: 20px;
+        border-radius: 5px;
+        color: #fff;
+    }
+    }
+    .search {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        border-radius: 60px;
+        background-color: rgba(0, 0, 0, .1);
+        padding-left: 1rem;
+        margin: 1rem 0 1rem 2em;
+        align-self: flex-start;
+    input {
+        background-color: transparent;
+        padding: .4rem 1rem;
+        border-radius: 60px;
+        border: none;
+        outline: none;
+    }
+    }
+
+    .user {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 1rem;
+        width: max-content;
+        height: 50px;
+        margin: .02rem .9px;
+        align-self: flex-start;
+        background-color: #f5f5fef8;
+
+        .user-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: start;
+            gap: .5rem;
+        }
+        .sub-top {
+            width: 320px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .sub-btm {
+            width: 320px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .user-name {
+            font-size: 15px;
+            font-weight: bold;
+        }
+        .message-preview {
+            font-size: 14px;
+        }
+        .seen-marker {
+            margin: 0;
+            padding: 0;
+            color: #0099FF;
+        }
+        img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            outline: none;
+            object-fit: cover;
+            margin-left: .6rem;
+        }
+    }
+    .user:hover {
+        background-color: #c1c1d8;
+    }
+}
