@@ -1,0 +1,38 @@
+
+.side-bar {
+    flex: .4;
+    border-right: 1px solid #0099FF;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem .6rem;
+    img {
+        width: 36px;
+        height: 36px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .top {
+        padding: 0 0 2rem 0;
+        border-bottom: 1px solid #0099FF;
+    }
+    .top, .middle, .bottom {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .side-icons {
+        width: 26px;
+        height: 26px;
+        color: #0099FF;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .side-icons:hover {
+        padding: 5px;
+        color: #fff;
+        background-color: #0099FF;
+    }
+}
