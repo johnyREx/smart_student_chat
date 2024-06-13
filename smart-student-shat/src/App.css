@@ -1,38 +1,54 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root {
+  --primary: #625EF1;
+  --secondary: #625EF1;
+  --tertiary: #625EF1;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
   display: flex;
-  flex-direction: column;
   align-items: center;
+  /* background-image: url('https://th.bing.com/th/id/R.57aee0746e6183220fbb140893af44df?rik=bSxe8%2fD21VCJ1w&pid=ImgRaw&r=0'); */
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.205) !important;
+  backdrop-filter: blur(19px) saturate(180%);
+  /* overflow: hidden; */
+}
+.container {
+  width: 94vw;
+  min-width: fit-content;
+  height: 96vh;
+  /* background-color: #fff; */
+  /* backdrop-filter: blur(19px) saturate(180%); */
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.125);
+  display: flex;
+  background-color: rgb(255, 255, 255);
+}
+.loading {
+  width: 94vh;
+  height: 96vh;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #625EF1;
+  border-radius: 10px;
+  font-weight: 900;
+  border-radius: 12px;
+
 }
 
-.App-link {
-  color: #61dafb;
+::-webkit-scrollbar {
+  width: 5px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+::-webkit-scrollbar-track {
+  background-color: aliceblue;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #625EF1;
+  border-radius: 10px;
 }
